@@ -3,7 +3,7 @@ package com.qaagility.controller;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
  
-public class CalcTest {
+public class JunitCalcTest {
 
       public void testSlow() {
         System.out.println("slow");
@@ -18,12 +18,12 @@ public class CalcTest {
       }
 
 	@Test	
-      public void testCalc() {
+      public void JunittestCalc() {
         assertEquals("Result", 10, 9);
       }
 
 	@Test	
-      public void testCalc1() {
+      public void JunittestCalc1() {
         assertEquals("Result - Fail", 9, 9);
       }
 	
